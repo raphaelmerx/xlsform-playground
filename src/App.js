@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { transform } from 'enketo-transformer/web';
 
 function App() {
+  console.log(transform)
   return (
     <div className="App">
       <header className="App-header">
